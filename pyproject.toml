@@ -1,0 +1,17 @@
+[tool.pdm]
+
+[tool.pdm.dev-dependencies]
+jupyter = [
+    "ipykernel>=6.29.5",
+]
+[project]
+dependencies = [
+    "langchain-core",
+    "langgraph",
+    "langchain-community",
+    "langchain-openai",
+    "beautifulsoup4",
+    "termcolor",
+    "chainlit"
+    ]
+requires-python = ">=3.11"
